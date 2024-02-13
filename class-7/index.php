@@ -19,22 +19,32 @@
         }
 
     }
- echo('<br>');
+//  echo('<br>');
 
-    $i = 0;
-    while($i < 10){
-        $i ++;
-        echo($i);
+//     $i = 0;
+//     while($i < 10){
+//         $i ++;
+//         echo($i);
+//         echo ('<br>');
+//     }
+
+//     echo('<br>');
+//     $k = 0;
+//     do{
+//         $k++;
+//         echo $k;
+//         echo ('<br>');
+//     }while($k < 10);
+
+     echo ('<br>');
+     echo ('<br>');
+     echo ('<br>');
+
+    for($i = 10 , $j = 0; $i > 0 ; $i-=1, $j++){
+        echo $i. ":" . $j  ;
         echo ('<br>');
+       
     }
-
-    echo('<br>');
-    $k = 0;
-    do{
-        $k++;
-        echo $k;
-        echo ('<br>');
-    }while($k < 10);
 
 ?>  
 
